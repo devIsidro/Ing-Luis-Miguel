@@ -1,0 +1,99 @@
+{
+  "theme": "Dark professional",
+  "archetype": "Archetype 4 (Swiss & High-Contrast) / Archetype 2 (Performance Pro)",
+  "vibe": "Trust, Urgency, Professionalism, Command-center",
+  "typography": {
+    "heading_font": "Outfit",
+    "body_font": "Manrope",
+    "strategy": "Technical, bold sans-serif headings for high-impact authority. Clear, modern sans-serif for body to ensure legibility on mobile.",
+    "h1": "text-4xl sm:text-5xl lg:text-6xl font-black tracking-tighter",
+    "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+    "h3": "text-xl sm:text-2xl font-semibold",
+    "body": "text-base leading-relaxed text-zinc-400"
+  },
+  "colors": {
+    "background": "#0A0A0A",
+    "surface": "#14141A",
+    "surface_glass": "bg-black/60 backdrop-blur-xl",
+    "primary": "#EAB308",
+    "primary_hover": "#FDE047",
+    "secondary": "#3B82F6",
+    "secondary_hover": "#60A5FA",
+    "whatsapp": "#25D366",
+    "text_main": "#FFFFFF",
+    "text_muted": "#A1A1AA",
+    "border": "#27272A"
+  },
+  "spacing_and_layout": {
+    "strategy": "Generous spacing. Mobile-first layout emphasizing vertical scroll and quick access to CTAs.",
+    "section_padding": "py-20 md:py-32 px-4 md:px-8",
+    "container": "max-w-7xl mx-auto",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-12 gap-6"
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-yellow-500 text-black font-bold py-4 px-8 rounded-none hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.3)]",
+      "secondary": "bg-transparent border-2 border-blue-500 text-blue-500 font-bold py-4 px-8 rounded-none hover:bg-blue-500 hover:text-white transition-all",
+      "whatsapp_floating": "fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-[0_4px_14px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform flex items-center justify-center"
+    },
+    "cards": {
+      "service_card": "bg-[#14141A] border border-zinc-800 p-8 rounded-lg hover:border-yellow-500/50 transition-colors group",
+      "testimonial_card": "bg-[#14141A] border border-zinc-800 p-6 rounded-lg flex flex-col gap-4"
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 2, high contrast colors (Yellow or Blue depending on the service)"
+    }
+  },
+  "motion": {
+    "hover": "Subtle transform translate-y-[-2px] and border color shifts",
+    "entrance": "Fade in up for sections using framer-motion (viewport once: true)"
+  },
+  "sections_to_build": [
+    {
+      "name": "Header",
+      "details": "Sticky glassmorphism header. Left: Logo/Text 'J&H'. Right: Phone number & small WhatsApp button. Must be z-50."
+    },
+    {
+      "name": "Hero",
+      "details": "Background image of concrete texture or electrician working, with heavy bg-black/60 overlay. Huge H1 'Electricista y Plomero de Confianza en Villahermosa'. Urgency subheadline. Large Yellow CTA 'Solicitar Servicio por WhatsApp'. Social proof badges (+48 Reseñas)."
+    },
+    {
+      "name": "Services",
+      "details": "3 columns. Electricidad (Yellow accents), Plomería (Blue accents), Especiales (Mixed). Use icons. List specific services."
+    },
+    {
+      "name": "Why Choose Us",
+      "details": "Bento grid or 4-column layout. Emphasize: 5 years experience, 5-star reviews, Fast response, Guarantee."
+    },
+    {
+      "name": "Testimonials",
+      "details": "Grid of 4 testimonials. Include 5 yellow stars, short text, and a professional portrait/name."
+    },
+    {
+      "name": "Location & Hours",
+      "details": "Embedded Google Maps of Villahermosa. Business hours listed alongside."
+    },
+    {
+      "name": "Footer",
+      "details": "Dark, large final CTA. Links to Facebook, Instagram, WhatsApp. Contact info clearly visible."
+    }
+  ],
+  "media": {
+    "hero_background": "https://images.unsplash.com/photo-1633319987325-aae32f3d8dd3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY29uY3JldGUlMjB0ZXh0dXJlfGVufDB8fHx8MTc3NzQ5NzIwMHww&ixlib=rb-4.1.0&q=85",
+    "electrician_service": "https://images.pexels.com/photos/34054464/pexels-photo-34054464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "plumbing_service": "https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "testimonials": [
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzc0Mjk3MTJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzc0Mjk3MTJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3Nzc0Mjk3MTJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/31880869/pexels-photo-31880869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "accessibility": {
+    "contrast": "Ensure yellow text/buttons on dark backgrounds have at least 4.5:1 ratio. Button text should be black for high contrast against yellow.",
+    "focus": "focus:ring-2 focus:ring-yellow-500 focus:outline-none",
+    "data_testid_rule": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case."
+  },
+  "instructions_to_main_agent": "Implement a high-converting, mobile-first landing page. Do not use generic Shadcn cards; use raw HTML/Tailwind for custom layouts. Ensure the sticky WhatsApp button is always visible. The hero image needs a dark overlay (bg-black/60) so text is highly legible. The design should convey urgency and trust, not a start-up vibe. Use lucide-react for icons. Install framer-motion if using scroll animations."
+}
